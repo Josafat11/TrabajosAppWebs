@@ -32,124 +32,138 @@ etiquetas semanticas "Header, Footer, Section"
 */
 /* Estilos generales */
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    color: #333;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Estilos para la página de información */
-  h1 {
-    font-size: 36px;
-    color: #6200ee;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 24px;
-    color: #6200ee;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-  
-  aside {
-    font-style: italic;
-    color: #888;
-    margin-bottom: 15px;
-  }
-  
-  img#img {
-    display: block;
-    margin: 20px auto;
-    border: 5px solid #6200ee;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
-  }
-  
-  
-  .Anime {
-    height: 70px;
-    width: 70px;
-  }
-  
-  #sech{
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #6200ee;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #6200ee;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+aside {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+img#img {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #6200ee;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Anime {
+  height: 70px;
+  width: 70px;
+}
+
+#sech {
   display: flex;
-  }
-  footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: #6200ee;
-  }
-  /* Estilos para los pasatiempos */
-  h2 + ol {
-    margin-left: 20px;
-    list-style-type: decimal-leading-zero;
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  /* Estilos para los enlaces */
-  ol li a {
-    color: #6200ee;
-    transition: color 0.3s;
-  }
-  
-  ol li a:hover {
-    color: #aa00ff;
-  }
-  
-  /* Estilos para el horario de clases */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  th {
-    background-color: #6200ee;
-    color: #fff;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  tr:hover {
-    background-color: #e0e0e0;
-  }
-  
-  /* Estilos adicionales */
-  a.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6200ee;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  a.button:hover {
-    background-color: #aa00ff;
-  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #6200ee;
+  color: #fff;
+  padding: 10px 0;
+}
+
+h2 + ol {
+  margin-left: 20px;
+  list-style-type: decimal-leading-zero;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ol li a {
+  color: #6200ee;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ol li a:hover {
+  color: #aa00ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #6200ee;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6200ee;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a.button:hover {
+  background-color: #aa00ff;
+}
+select:valid,
+input:valid{
+  border-width: 3px;
+  border-color: rgb(89, 247, 107);
+  border-style: solid;
+  background-color: rgb(223, 145, 213);
+
+}
+
+select:invalid,
+input:invalid{
+  border-width: 3px;
+  border-color: rgb(40, 244, 74);
+  border-style: solid;
+  background-color: rgb(224, 44, 44);
+}
   

@@ -8,32 +8,27 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>Practica manejo de formulario</h1>
+    <h1>Práctica manejo de formulario</h1>
     <form action="index.html" method="get" name="login" id="login" autocomplete="off">
-        <fieldset>
+      <fieldset>
         <legend>Login web</legend>
-        <table>
-            <tr>
-                <td><label for="user">Usuario</label></td>
-                <td><input type="text" placeholder="Usuario" name="user"></td>
-            </tr>
-            <tr>
-                <td><label for="pass">Contraseña</label></td>
-                <td><input type="password" placeholder="Contraseña" name="pass"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Loguear"></td>
-            </tr>
-            <tr>
-            <select name="grupo" id="grupo">
-            <option value="A">Grupo A</option>
-            <option value="B">Grupo B</option>
-            <option value="C">Grupo C</option>
-            <option value="D">Grupo D</option>
-            </select>
-            </tr>
-        </table>
-        </fieldset>
+        <label for="user">Usuario:</label>
+        <input type="text" placeholder="Usuario" name="user" required>
+        <br>
+        <label for="pass">Contraseña:</label>
+        <input type="password" placeholder="Contraseña" name="pass" required>
+        <br>
+        <input type="submit" value="Iniciar sesión">
+        <br>
+        <label for="grupo">Grupo:</label>
+        <select name="grupo" id="grupo">
+          <option value="A">Grupo A</option>
+          <option value="B">Grupo B</option>
+          <option value="C">Grupo C</option>
+          <option value="D">Grupo D</option>
+        </select>
+      </fieldset>
     </form>
+    
 </body>
 </html>

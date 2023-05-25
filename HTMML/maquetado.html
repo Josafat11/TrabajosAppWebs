@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <link rel="stylesheet" href="estilos.css">
@@ -14,20 +14,37 @@
             <img src="Src/lol.webp" alt="anime" class="Anime">
         </header>
         <section>
-            <h2>Seccion 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe ex atque veniam repellendus possimus sint, error voluptatem sit fuga, ipsam voluptates odit corrupti rerum accusantium corporis, enim at beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia numquam, molestias eaque consequuntur ipsam hic tempora fugiat non error. Incidunt tempore cumque voluptatem possimus quae quam soluta veritatis veniam amet.
-            </p>
-            <h2>Seccion 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quia eligendi eos. Iste, dolorum. Consequatur voluptates quaerat fuga sunt eveniet, pariatur corporis adipisci ipsa nihil officiis deserunt labore explicabo quidem.</p>
-            <h2>Seccion 3</h2>
-            <section id="sech">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo qui amet sunt? Voluptates corporis aliquam expedita nisi numquam laboriosam ducimus minus fugiat similique voluptas exercitationem voluptatem facilis, cupiditate velit nihil.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, placeat! Praesentium accusamus natus molestias, dicta ducimus quas assumenda laborum! Minima libero ea deserunt nesciunt repellat, explicabo labore atque earum. Ratione.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut deleniti distinctio eveniet nesciunt quod dolor vero nostrum, quia voluptates praesentium, exercitationem, sit libero dolorum. Neque inventore soluta incidunt ut omnis.</p>
+            <h2>Formulario de logueo</h2>
+            <form action="index.html" method="get" autocomplete="off">
 
-            </section>
+                <fieldset>
+                    <legend>Login</legend>
+                    <table>
+                        <tr>
+                            <td><label for="user">Usuario:</label></td>
+                            <td><input type="text" name="user" id="user" placeholder="usuario" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="pass">Contraseña:</label></td>
+                            <td><input type="password" name="pass" id="pass" placeholder="password" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Login"></td>
+                        </tr>
+                    </table>
+                    <p>Olvido su contraseña <a href="recuperar.html">aqui...</a></p>
+                    <p>Aun no tienes una cuenta <a href="registro.html">aqui...</a></p>
 
-        </section>
+
+
+                </fieldset>
+
+
+            </form>
+
+
+
         <footer>
             <h2>Practica 3c</h2>
             <img src="Src/uthh-logo.webp" alt="uthh-logo">
